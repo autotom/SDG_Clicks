@@ -27,7 +27,7 @@ public class Starter {
 		driver = new ChromeDriver();
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void login() {
 		
 		driver.get(p.getProperty("url"));
@@ -41,6 +41,14 @@ public class Starter {
 		
 		lp.submit().click();
 		
+	}
+	
+	@Test(priority=2)
+	public void pickcampaign() {
+		
+		Login_Page lp1 = new Login_Page(driver);
+		
+		lp1.mycampaign().click();
 		
 	}
 	

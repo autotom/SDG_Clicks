@@ -23,6 +23,9 @@ public class Login_Page {
 
 	@FindBy(xpath="//div//form/input[@value=\"Sign in\"]")
 	WebElement submit;
+	
+	@FindBy(xpath="//section//nav//a[contains(@href,\"mycampaign\")]")
+	WebElement mycampaign;
 
 	public WebElement email() {
 
@@ -37,5 +40,10 @@ public class Login_Page {
 	public WebElement submit() {
 
 		return submit;
+	}
+	
+	public WebElement mycampaign() {
+
+		return mycampaign;
 	}
 }

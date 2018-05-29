@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19542" started-at="2018-05-29T20:07:22Z" finished-at="2018-05-29T20:07:42Z">
+  <suite name="Default suite" duration-ms="17479" started-at="2018-05-29T20:19:59Z" finished-at="2018-05-29T20:20:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19542" started-at="2018-05-29T20:07:22Z" finished-at="2018-05-29T20:07:42Z">
+    <test name="Default test" duration-ms="17479" started-at="2018-05-29T20:19:59Z" finished-at="2018-05-29T20:20:16Z">
       <class name="Header.Starter">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Header.Starter@cb5822]" name="setup" is-config="true" duration-ms="4844" started-at="2018-05-29T20:07:22Z" finished-at="2018-05-29T20:07:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Header.Starter@cb5822]" name="setup" is-config="true" duration-ms="1986" started-at="2018-05-29T20:19:59Z" finished-at="2018-05-29T20:20:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Header.Starter@cb5822]" name="login" duration-ms="14500" started-at="2018-05-29T20:07:27Z" finished-at="2018-05-29T20:07:41Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:Header.Starter@cb5822]" name="login" duration-ms="13660" started-at="2018-05-29T20:20:01Z" finished-at="2018-05-29T20:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Header.Starter@cb5822]" name="teardown" is-config="true" duration-ms="167" started-at="2018-05-29T20:07:41Z" finished-at="2018-05-29T20:07:42Z">
+        <test-method status="PASS" signature="pickcampaign()[pri:2, instance:Header.Starter@cb5822]" name="pickcampaign" duration-ms="1602" started-at="2018-05-29T20:20:14Z" finished-at="2018-05-29T20:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickcampaign -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Header.Starter@cb5822]" name="teardown" is-config="true" duration-ms="186" started-at="2018-05-29T20:20:16Z" finished-at="2018-05-29T20:20:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
