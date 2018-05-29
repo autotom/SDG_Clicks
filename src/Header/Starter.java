@@ -52,6 +52,29 @@ public class Starter {
 		
 	}
 	
+	@Test(enabled=false)
+	public void report() {
+		
+		Campaign_identifier ci = new Campaign_identifier(driver);
+		int i =0;
+		System.out.println(ci.mykronoz().getSize());
+		
+		List<WebElement> myk =  ci.mykronoz();
+		//fix this also
+		while(i<3) {
+			
+			System.out.println(ci.mykronoz().getText());
+			i++;
+		}
+		
+	@Test(priority=3)
+	public void pencil() {
+		Campaign_identifier ci1 = new Campaign_identifier(driver);
+		//start from here
+
+	}
+	}
+	
 	@AfterTest
 	public void teardown() {
 		
